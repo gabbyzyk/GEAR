@@ -1,0 +1,36 @@
+[project]
+name = "GEAR"
+version = "0.0.1"
+authors = [
+  { name = "Yongkang Zhou", email = "51265901106@stu.ecnu.edu.cn" },
+  { name = "Xingrun Quan",  email = "quanxingrun@gmail.com" },
+  { name = "Yuxuan Hou",    email = "uheon0202@gmail.com" },
+  { name = "Junjie Yao",    email = "junjie.yao@sei.ecnu.edu.cn" },
+  { name = "Gang Xu",       email = "gxu@sei.ecnu.edu.cn" },
+  { name = "Jiangtao Wang", email = "jtwang@sei.ecnu.edu.cn" },
+]
+description = "Graph-Efficient Augmented Retrieval via Adaptive Knowledge-Path Fusion (GEAR)"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+  "pyyaml ~= 6.0.1",
+  "torch >= 2.1.0",
+  "transformers ~= 4.41.0",
+  "openai ~= 1.30.1",
+  "wikipedia-api ~= 0.6.0",
+  "numpy ~= 1.26.4",
+  "pandas ~= 2.2.2",
+  "matplotlib ~= 3.8.4",
+  "psycopg2-binary",
+  "pgvector ~= 0.2.5",
+  "tqdm ~= 4.66.4",
+  "seaborn ~= 0.13.2"
+]
+
+[project.urls]
+Repository = "https://github.com/gabbyzyk/GEAR"
