@@ -10,7 +10,7 @@ This repository contains the official implementation for the paper: **GEAR: Grap
 <img src="FIG/Fig1intro.png" width=100%>
 </p>
 
-*Figure 1: The GEAR pipeline, showcasing multi-semantic indexing, retrieval, re-ranking, fusion, and generation.* 
+*Figure 1: The GEAR pipeline, showcasing multi-path indexing, retrieval, re-ranking, fusion, and xxs.* 
 
 [cite_start]GEAR is a novel framework designed to enhance Retrieval-Augmented Generation (RAG) systems that leverage knowledge graphs.  [cite_start]It addresses key challenges in existing graph-RAG pipelines, such as the "semantic gap" and "inter-module misalignment," which can lead to inefficient and inaccurate retrievals.  [cite_start]By employing a multi-head architecture, GEAR interprets queries across diverse semantic spaces, fuses knowledge paths adaptively, and constructs coherent subgraphs that are precisely aligned with user intent. 
 
